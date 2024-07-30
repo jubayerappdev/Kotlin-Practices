@@ -39,7 +39,7 @@ fun main() {
 //    if (names.contains("Jubayer")==false)
     if (hasName==false){
         println("Account not found..")
-//        names.add("Jubayer")
+//        names.add("Jubayer") in memory data not solid
     }else{
         println("Welcome!!")
     }

@@ -11,10 +11,17 @@ fun main() {
 
     house.isForSale = true
     println(house)
+//    var house = House()
+//    var house1 = House(color = "Yellow", isForSale = true, noOfWindows  = 7)
+    //house2 = house
+//    println(house = house2)
+//    var house3 = house1.copy(isForSale = false)
+//    println(house3)
+
 
 }
 
-//var color: String, val noOfWindows:Int = 4, var isForSale:Boolean
+// data class var color: String, val noOfWindows:Int = 4, var isForSale:Boolean
 //fun UpdateColor(newColor:String){Colore =newColor}
 class House(){
     var color:String = "White"
@@ -32,3 +39,8 @@ class House(){
     //Override parent class
 
 }
+//data class House(var color:String = "Blue", var noOfWindows:Int = 4, var isForSale:Boolean = false){
+//    fun updateColor(newColor:String){
+//        color = newColor
+//    }
+//}

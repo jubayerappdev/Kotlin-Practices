@@ -58,7 +58,7 @@ class Student(
         println("$name is a student, he is learning now....")
     }
 //    fun eat(){
-//        println("$name ca eat..")
+//        println("$name can eat..")
 //    }
 
 

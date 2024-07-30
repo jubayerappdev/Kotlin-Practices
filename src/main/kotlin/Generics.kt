@@ -8,6 +8,12 @@ fun main() {
 
 }
 
+
+//class DataBoxs(var str:String){
+//    fun info(){
+//        println(str)
+//    }
+//}
 class DataBox<T>(private var str: T){
     fun info(){
         println(str)
